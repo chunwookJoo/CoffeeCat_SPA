@@ -5,7 +5,8 @@ Coffee Cat API <br/>
 ## 상품 목록 조회<br/>
 
 **GET** <br/>
-/products
+_/products_ <br/>
+상품 목록 조회
 
 ```javascript
 {
@@ -16,19 +17,19 @@ Coffee Cat API <br/>
 }
 ```
 
-/products/{productId} <br/>
+_/products/{productId}_ <br/>
 productId에 해당하는 상품을 조회
 
 ```javascript
 {
-	id 				// 상품 아이디
-	name 			// 상품 이름
-	imageUrl	// 상품 사진 url
-	price		 	// 상품 가격
+	id // 상품 아이디
+	name // 상품 이름
+	imageUrl // 상품 사진 url
+	price // 상품 가격
 	productOptions:[  // 상품 옵션
 		{
-			id		// 옵션 아이디
-			name	// 옵션 이름
+			id // 옵션 아이디
+			name // 옵션 이름
 			price // 옵션 금액
 			stock // 재고
 			created_at // 생성날짜
